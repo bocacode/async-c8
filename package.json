@@ -1,0 +1,24 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bocacode/async-c8.git"
+  },
+  "keywords": [
+    "oashdfkjhasdkjfhasdfkjh"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type":"module",
+  "bugs": {
+    "url": "https://github.com/bocacode/async-c8/issues"
+  },
+  "homepage": "https://github.com/bocacode/async-c8#readme"
+}

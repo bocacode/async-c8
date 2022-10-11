@@ -7,12 +7,14 @@ fs.readFile(filename,"utf8",function (err,data) {
 })
 
 // promise (then)
-fs.promises.readFile(filename,"utf8").then((data) => {
+fs.promises.readFile(filename,"utf8")
+.then((data) => {
     console.log(data);
 })
 
 // async
-async function showText() {
+const showText = async () => {
+//async function showText() {
     const data = await fs.promises.readFile(filename, 'utf8');
     return data
 }
